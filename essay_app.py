@@ -56,4 +56,4 @@ def main():
 # Run the Gradio app
 if __name__ == "__main__":
     app = main()
-    app.launch()
+    app.launch('share=True')
