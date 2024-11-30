@@ -1,5 +1,6 @@
 import gradio as gr
-import openai
+import os
+# import openai
 
 # Function to generate the essay
 def generate_essay(project_info, accessibility_info):
